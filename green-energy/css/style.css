@@ -1,0 +1,155 @@
+body {
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    font-family: 'Fira Sans', sans-serif;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 5em;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 0;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.6em;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
+
+img {
+    width: auto;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+li {
+    float: left;
+
+}
+
+nav ul li a {
+    font-size: 1.5rem;
+
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: pink;
+}
+
+.content {
+    text-align: center;
+
+}
+
+/* menu with icons*/
+.menu {
+    width: 100%;
+    clear: both;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.menu a {
+    border: none;
+    padding: 0 0.2rem;
+    font-size: 1.5em;
+}
+
+.menu a:hover {
+    background-color: #f1eded;
+}
+
+#active {
+    background-color: pink;
+}
+
+.content {
+    clear: both;
+}
+
+footer {
+    margin: 0 auto;
+    padding-top: 16em;
+
+}
+
+footer a {}
+
+footer a,
+footer a:visited {
+    font-size: 2em;
+    color: white;
+    padding: 0.5rem;
+}
+
+footer a:first-child {
+    margin-top: 30em;
+
+
+}
+
+@media only screen and (max-width: 30rem) {
+    .menu a {
+        width: 25%;
+    }
+
+    footer a:first-child {
+        margin-top: 0em;
+        margin-left: 0em;
+    }
+
+    footer {
+        justify-content: center
+    }
+
+    nav ul li a {
+
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+}
+
+@media only screen and (min-width: 35rem) {
+    .menu {
+        width: 30%;
+        margin: 0 auto;
+    }
+
+    footer {
+        margin-top: 8em;
+    }
+
+    footer a:first-child {
+        margin-left: 20em;
+    }
+
+    nav ul li a {
+        font-size: 2em;
+    }
+}
